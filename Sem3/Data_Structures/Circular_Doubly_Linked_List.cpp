@@ -130,6 +130,7 @@ class DLL{
 					ploc->flink->blink=ppre;
 					delete(ploc);
 				}
+				return true;
 			}
 			else{
 				return false;
